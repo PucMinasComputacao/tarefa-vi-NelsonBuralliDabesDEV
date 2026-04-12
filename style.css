@@ -1,0 +1,32 @@
+
+body {
+    background-color: #ffffff !important; 
+}
+
+.cabecalho-amarelo {
+    background-color: #FFEB3B !important; 
+}
+
+.card img {
+    width: 150px !important;
+    height: 150px !important;
+    object-fit: cover !important;
+    margin: 20px auto 0 auto !important;
+    border-radius: 10px !important;
+}
+
+.card, .nav-link {
+    transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+}
+
+.card:hover, .nav-link:hover {
+    transform: translateY(-5px) !important;
+    cursor: pointer !important;
+}
+
+.card:hover {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15) !important;
+}
+
+
+
